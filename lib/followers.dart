@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
             trailing: ButtonTheme(
               minWidth: 20.0,
               height: 30.0,
-              child: RaisedButton(
+              child: FlatButton(
                 color: Colors.greenAccent[200],
                 child: Text("+Follow"),
                 onPressed: () {},
