@@ -137,7 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: GoogleFonts.openSans(
                           fontSize: 15, fontWeight: FontWeight.w600))),
               Container(
-                height: 350.0,
+                height: 450.0,
                 child: ListView(
                   shrinkWrap: true,
                   physics: AlwaysScrollableScrollPhysics(),
@@ -151,6 +151,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     buildCard("Loren ipsum dolor",
                         "https://i.ibb.co/1vXpqVs/flutter-logo.jpg"),
                     buildCard("Aliquam risus tortor",
+                        "https://i.ibb.co/1vXpqVs/flutter-logo.jpg"),
+                    buildCard("Riadle risus tortor",
                         "https://i.ibb.co/1vXpqVs/flutter-logo.jpg")
                   ],
                 ),
