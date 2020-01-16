@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
+class Followers extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _FollowersState createState() => _FollowersState();
 }
 
-class _HomeState extends State<Home> {
+class _FollowersState extends State<Followers> {
   int i = 0;
 
   // Generates a list of strings
@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
               height: 30.0,
               child: FlatButton(
                 color: Colors.greenAccent[200],
-                child: Text("+Follow"),
+                child: Text("+ Follow"),
                 onPressed: () {},
               ),
             ),
