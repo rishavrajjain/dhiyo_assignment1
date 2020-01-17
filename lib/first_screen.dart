@@ -116,8 +116,7 @@ class _HomeState extends State<Home> {
                   child: Text("Jump in and start collecting!",
                       style: GoogleFonts.openSans(
                           fontSize: 15, fontWeight: FontWeight.w600))),
-              Container(
-                height: 450.0,
+              Expanded(
                 child: ListView(
                   shrinkWrap: true,
                   physics: AlwaysScrollableScrollPhysics(),
@@ -211,7 +210,7 @@ class _HomeState extends State<Home> {
                 Row(
                   children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(0, 5, 2, 0),
+                      padding: const EdgeInsets.fromLTRB(0, 4, 2, 0),
                       child: Text("SHARE",
                           style: GoogleFonts.roboto(
                               fontSize: 9, fontWeight: FontWeight.w400)),
